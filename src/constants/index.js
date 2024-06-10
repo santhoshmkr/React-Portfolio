@@ -20,6 +20,7 @@ export const PROJECTS = [
   {
     title: "EasyPlan:Your All-in-One Organizer",
     image: project1,
+    live: "https://66608bd7cab85641da5f54bf--statuesque-stardust-b4017c.netlify.app/",
     description:
       "EasyPlan merges calendar and tasks for streamlined organization and productivity. Stay focused effortlessly.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
@@ -27,6 +28,7 @@ export const PROJECTS = [
   {
     title: "Music landing App",
     image: project2,
+    live:"#",
     description:
       "An application for view the album and play the music.",
     technologies: ["HTML", "CSS", "Javascript"],
@@ -34,6 +36,7 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project3,
+    live:"#",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "tailwind"],

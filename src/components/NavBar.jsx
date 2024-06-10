@@ -9,9 +9,9 @@ const NavBar = () => {
         <img className=' w-20' src={logo} alt="" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl text-white">
-        <FaLinkedin/>
-        <FaGithub/>
-        <FaInstagram/>
+        <a href="https://www.linkedin.com/in/santhosh-k-826178270/"><FaLinkedin/></a>
+        <a href="https://github.com/santhoshmkr"><FaGithub/></a>
+        <a href="https://www.instagram.com/badboy_with_good_quality/"><FaInstagram/></a>
       </div>
     </nav>
   )

@@ -56,7 +56,7 @@ function Experience() {
                     key={techIndex}
                     initial={{ opacity: 0, y: -100 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 2, delay: techIndex * 0.5 }}
+                    transition={{ duration: 2, delay: techIndex  }}
                     className="mr-2 mt-4 rounded bg-neutral-400 px-2 py-1 text-base font-medium text-blue-950"
                   >
                     {technology}
