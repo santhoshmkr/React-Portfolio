@@ -7,9 +7,9 @@ import { SiTailwindcss } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const iconMove=(duration)=>({
-  intial:{y:-20},
+  intial:{y:-10},
   animate:{
-    y:[10,-20],
+    y:[10,-10],
     transition:{
       duration:duration,
       ease:"linear",

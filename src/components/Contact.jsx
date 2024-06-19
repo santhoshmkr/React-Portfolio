@@ -4,10 +4,7 @@ import { IoCall } from "react-icons/io5";
 import { motion } from "framer-motion";
 
 const Contact = () => {
-    const phoneNumber = '6379775070'; 
-  const preFilledMessage = 'Hello, I am intrested in ypur profile'; 
-
-  const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(preFilledMessage)}`;
+    
 
   return (
     <div className='border-b border-neutral-900 pb-20'>
@@ -23,11 +20,9 @@ const Contact = () => {
           transition={{ duration: 1.5 }}
         className="flex gap-1 items-center my-4 justify-center">
           <div className=" text-2xl text-blue-500"><IoCall className=" m-0 "/></div>
-          <span className=""><a href="tel:{CONTACT.phoneNo}" className="">{CONTACT.phoneNo}</a></span>
+          <span className=""><a href={`tel:${CONTACT.phoneNo}`} className="">{CONTACT.phoneNo}</a></span>
         </motion.div>
-        
-        
-        <a href="mailto:{CONTACT.email}" className="my-4 hover:border-b">{CONTACT.email}</a>
+        <a href={`mailto:${CONTACT.email}`} className="my-4 hover:border-b">{CONTACT.email}</a>
       </div>
     </div>
   )
