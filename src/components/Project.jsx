@@ -10,13 +10,13 @@ const Project = () => {
       transition={{ duration: 0.5 }}
       className="my-20 text-center text-4xl">Projects</motion.h2>
       {PROJECTS.map((project, index) => (
-        <div key={index} className="mb-4 flex flex-wrap lg:justify-center mx-10">
+        <div key={index} className="mb-4 flex flex-wrap lg:justify-center mx-10 my-10">
           <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
-          className="w-full lg:w-1/4">
-            <a href={project.live}><img src={project.image} width={200} height={150} alt={project.title} className="mb-6 rounded"/></a>
+          className="w-full lg:w-1/4  ">
+            <a href={project.live}><img src={project.image} width={300} height={250} alt={project.title} className="mb-6 rounded"/></a>
           </motion.div>
           <motion.div 
           whileInView={{ opacity: 1, x: 0 }}
@@ -33,6 +33,7 @@ const Project = () => {
           </motion.div>
         </div>
       ))}
+      
     </div>
   )
 }

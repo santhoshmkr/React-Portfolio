@@ -1,6 +1,9 @@
 import project1 from "../assets/projects/calender.png";
 import project2 from "../assets/projects/music-app.png";
 import project3 from "../assets/projects/portfolio.png";
+import on_off from "../assets/projects/on-off.png";
+import goat from "../assets/projects/goat.png";
+import neelcord from "../assets/projects/neelcord.png";
 
 export const HERO_CONTENT = `Dynamic and detail-oriented aspiring Frontend Developer with a strong foundation in designing, developing, and maintaining user-friendly web applications using React. Proficient in modern web technologies and passionate about crafting efficient and scalable web solutions. Demonstrates the ability to learn quickly and collaborate effectively with cross-functional teams. Eager to apply skills and passion for technology in a challenging and growth-oriented environment.`;
 
@@ -8,12 +11,19 @@ export const ABOUT_TEXT = `Hi there! I'm an enthusiastic full stack developer wi
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    year: "june -2023 - may 2024",
     role: "Full Stack Developer",
     company: "why global services",
-    description: `Lead a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    description: `As a trainee, I was part of a team responsible for developing and maintaining web applications. I worked with JavaScript, React.js, and Node.js to create user-friendly interfaces and efficient backends. I helped implement RESTful APIs and integrate with MongoDB databases. I also collaborated with stakeholders to understand project requirements and ensure timely delivery.`,
     technologies: ["Javascript", "React.js", "Node.js", "mongoDB"],
   },
+  {
+    year: "july-2024 - september 2024",
+    role: "Web developer",
+    company: "Sellerrocket",
+    description: `As a trainee, I worked on e-commerce websites using WordPress and Shopify. I used HTML, CSS, PHP, and Bootstrap to create and style web pages. I collaborated with team members to ensure projects were delivered on time. This experience helped me learn about e-commerce platforms and web development technologies.`,
+    technologies: ["wordpress", "Shopify", "PHP", "HTML", "CSS", "Bootstrap"],
+  }
 ];
 
 export const PROJECTS = [
@@ -34,18 +44,34 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Javascript"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
-    live:"#",
+    title: "on-off clothing website",
+    image: on_off,
+    live:"https://on-off.in/",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "tailwind"],
+      "E-commerce website built on Shopify, featuring a user-friendly interface, secure checkout, and a wide range of customizable features.",
+    technologies: ["Shopify","liquid","HTML", "CSS", "Javascript"],
+  },
+  {
+    title: "goat the legend clothing website",
+    image: goat,
+    live:"https://goatthelegend.com/",
+    description:
+      "E-commerce website built on wordpress, featuring a user-friendly interface, secure checkout, and a wide range of customizable features.",
+    technologies: ["wordpress","php","elementor", "CSS"],
+  },
+  {
+    title: "neelcord clothing website (b2b) under development",
+    image: neelcord,
+    live:"https://neelcord.com/",
+    description:
+      "B2B Catalog Website (WordPress) is a platform designed to showcase a company's product offerings to wholesale buyers, featuring a user-friendly interface, detailed product information, and easy-to-use navigation.",
+    technologies: ["wordpress","php","elementor", "CSS", "Javascript"],
   },
   
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
+  address: "3a1, 1st street, indra nagr, madhukkur, pattukkotai, thanjavur-614903 ",
   phoneNo: "+91 6379775070 ",
   whatsapp: "+91 6379775070 ",
   email: "santhoshmkr0723@gmail.com",
