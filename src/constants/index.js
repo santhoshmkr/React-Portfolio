@@ -16,13 +16,6 @@ export const EXPERIENCES = [
     company: "why global services",
     description: `As a trainee, I was part of a team responsible for developing and maintaining web applications. I worked with JavaScript, React.js, and Node.js to create user-friendly interfaces and efficient backends. I helped implement RESTful APIs and integrate with MongoDB databases. I also collaborated with stakeholders to understand project requirements and ensure timely delivery.`,
     technologies: ["Javascript", "React.js", "Node.js", "mongoDB"],
-  },
-  {
-    year: "july-2024 - september 2024",
-    role: "Web developer",
-    company: "Sellerrocket",
-    description: `As a trainee, I worked on e-commerce websites using WordPress and Shopify. I used HTML, CSS, PHP, and Bootstrap to create and style web pages. I collaborated with team members to ensure projects were delivered on time. This experience helped me learn about e-commerce platforms and web development technologies.`,
-    technologies: ["wordpress", "Shopify", "PHP", "HTML", "CSS", "Bootstrap"],
   }
 ];
 

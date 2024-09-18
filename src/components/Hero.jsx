@@ -13,15 +13,15 @@ const container =(delay)=>({
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35 mx-36">
-      <div className="flex flex-wrap mx-10">
-        <div className="w-full lg:w-1/2">
+    <div className="border-b border-neutral-900 pb-4 lg:mb-35 lg:mx-36 ">
+      <div className="flex flex-wrap mx-10 ">
+        <div className="w-full lg:w-1/2 ">
             <div className="flex flex-col items-center lg:items-start">
                 <motion.h1
                 variants={container(0)}
                 initial="hidden"
                 whileInView="visible"
-                className="pb-16 text-6xl font-thin tracking-tighter lg:mt-16 lg:text-7xl">Santhosh Kalidoss</motion.h1>
+                className="pb-16 sm:pb-4 text-6xl font-thin tracking-tighter lg:mt-16 lg:text-7xl">Santhosh Kalidoss</motion.h1>
             </div>
             <motion.span 
             variants={container(0.5)}
@@ -32,7 +32,7 @@ const Hero = () => {
             variants={container(1)}
             initial="hidden"
             whileInView="visible"
-            className="my-2 max-w-xl py-6 font-light tracking-tighter text-justify indent-8">{HERO_CONTENT}</motion.p>
+            className="my-2 max-w-xl py-6 sm:py-2 font-light tracking-tighter text-justify indent-8">{HERO_CONTENT}</motion.p>
         </div>
         <div className="w-full lg:w-1/2">
             <motion.div 
@@ -44,7 +44,7 @@ const Hero = () => {
                 
                 height={150}
                 width={500}
-                className='rounded-md'
+                className='rounded-md ml-10 sm:ml-0'
                 transition={{duration:1, delay:1.2}}
                 src={Profilepic} alt="" />
             </motion.div>
