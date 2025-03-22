@@ -16,13 +16,13 @@ const Project = () => {
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
           className="w-full lg:w-1/4  ">
-            <a href={project.live}><img src={project.image} width={300} height={250} alt={project.title} className="mb-6 rounded"/></a>
+            <a href={project.live}><img src={project.image} alt={project.title} className="mb-6 rounded lg:w-[80%] md:w-[80%] mx-auto"/></a>
           </motion.div>
           <motion.div 
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 1.5 }}
-          className="w-full max-w-xl lg:3/4">
+          className="lg:w-full md:w-[80%] max-w-xl lg:3/4">
             <h6 className="mb-2 font-semibold">{project.title}</h6>
             <p className="mb-6 text-neutral-400 text-justify">{project.description}</p>
             <div className="flex flex-wrap gap-2">

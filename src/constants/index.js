@@ -52,14 +52,14 @@ export const PROJECTS = [
       "E-commerce website built on wordpress, featuring a user-friendly interface, secure checkout, and a wide range of customizable features.",
     technologies: ["wordpress","php","elementor", "CSS"],
   },
-  {
-    title: "neelcord clothing website (b2b) under development",
-    image: neelcord,
-    live:"https://neelcord.com/",
-    description:
-      "B2B Catalog Website (WordPress) is a platform designed to showcase a company's product offerings to wholesale buyers, featuring a user-friendly interface, detailed product information, and easy-to-use navigation.",
-    technologies: ["wordpress","php","elementor", "CSS", "Javascript"],
-  },
+  // {
+  //   title: "neelcord clothing website (b2b) under development",
+  //   image: neelcord,
+  //   live:"https://neelcord.com/",
+  //   description:
+  //     "B2B Catalog Website (WordPress) is a platform designed to showcase a company's product offerings to wholesale buyers, featuring a user-friendly interface, detailed product information, and easy-to-use navigation.",
+  //   technologies: ["wordpress","php","elementor", "CSS", "Javascript"],
+  // },
   
 ];
 

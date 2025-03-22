@@ -13,7 +13,7 @@ const container =(delay)=>({
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35 lg:mx-36 sm:mx-10">
+    <div className="border-b border-neutral-900 pb-4 lg:mb-36 mx-8  ">
       <div className="flex flex-wrap mx-10">
         <div className="w-full lg:w-1/2">
             <div className="flex flex-col items-center lg:items-start">
@@ -21,7 +21,7 @@ const Hero = () => {
                 variants={container(0)}
                 initial="hidden"
                 whileInView="visible"
-                className="pb-16 text-6xl font-thin tracking-tighter lg:mt-16 lg:text-7xl">Santhosh Kalidoss</motion.h1>
+                className="pb-10 text-6xl font-[400] tracking-tighter lg:mt-5 lg:text-[4.4rem] w-full">Santhosh Kalidoss</motion.h1>
             </div>
             <motion.span 
             variants={container(0.5)}
@@ -32,7 +32,7 @@ const Hero = () => {
             variants={container(1)}
             initial="hidden"
             whileInView="visible"
-            className="my-2 max-w-xl py-6 font-light tracking-tighter text-justify indent-8">{HERO_CONTENT}</motion.p>
+            className="my-2 max-w-xl py-6 font-light tracking-tighter text-justify indent-8 text-lg leading-9">{HERO_CONTENT}</motion.p>
         </div>
         <div className="w-full lg:w-1/2">
             <motion.div 
